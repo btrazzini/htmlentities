@@ -1,0 +1,27 @@
+{
+  "identifier": "btrazzini.htmlentities",
+  "name": "HTML Entities",
+  "organization": "Bruno Trazzini",
+  "description": "encoding and decoding HTML entities",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bugs": "https://github.com/btrazzini/htmlentities/issues",
+  "categories": ["formatters"],
+  "main": "main.js",
+  "commands": {
+    "editor": [
+        {
+          "title": "Encode",
+          "command": "htmlentities.encode",
+          "when": "editorHasSelection",
+          "shortcut": "ctrl-e"
+        },
+        {
+          "title": "Decode",
+          "command": "htmlentities.decode",
+          "when": "editorHasSelection",
+          "shortcut": "ctrl-shift-e"
+        }
+      ]
+    }
+}

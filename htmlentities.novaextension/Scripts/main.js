@@ -1,10 +1,10 @@
 var HtmlEntities = function() {};
 
+// removed 	" ": "&nbsp;",
 HtmlEntities.map = {
 	"'": "&apos;",
 	"<": "&lt;",
 	">": "&gt;",
-	" ": "&nbsp;",
 	"¡": "&iexcl;",
 	"¢": "&cent;",
 	"£": "&pound;",

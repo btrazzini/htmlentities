@@ -3,7 +3,7 @@
   "name": "HTML Entities",
   "organization": "Bruno Trazzini",
   "description": "encoding and decoding HTML entities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "bugs": "https://github.com/btrazzini/htmlentities/issues",
   "categories": ["formatters"],
